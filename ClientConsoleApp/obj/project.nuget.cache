@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "J8JYuFV3H4wSneV+bbwT2zOYzy9jmKBP+CgOI91lrJdizeBJFeCvUF4Z4pIl1X9r6Ov/SfY2QHmvDn3CMkGfFA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\rahul\\Desktop\\C#Playground\\IdentityServer\\ClientConsoleApp\\ClientConsoleApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\rahul\\.nuget\\packages\\identitymodel\\6.0.0\\identitymodel.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

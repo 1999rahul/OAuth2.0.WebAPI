@@ -1,0 +1,17 @@
+C:\Users\rahul\Desktop\C#Playground\IdentityServer\ClientConsoleApp\bin\Debug\net6.0\ClientConsoleApp.exe
+C:\Users\rahul\Desktop\C#Playground\IdentityServer\ClientConsoleApp\bin\Debug\net6.0\ClientConsoleApp.deps.json
+C:\Users\rahul\Desktop\C#Playground\IdentityServer\ClientConsoleApp\bin\Debug\net6.0\ClientConsoleApp.runtimeconfig.json
+C:\Users\rahul\Desktop\C#Playground\IdentityServer\ClientConsoleApp\bin\Debug\net6.0\ClientConsoleApp.dll
+C:\Users\rahul\Desktop\C#Playground\IdentityServer\ClientConsoleApp\bin\Debug\net6.0\ClientConsoleApp.pdb
+C:\Users\rahul\Desktop\C#Playground\IdentityServer\ClientConsoleApp\bin\Debug\net6.0\IdentityModel.dll
+C:\Users\rahul\Desktop\C#Playground\IdentityServer\ClientConsoleApp\obj\Debug\net6.0\ClientConsoleApp.csproj.AssemblyReference.cache
+C:\Users\rahul\Desktop\C#Playground\IdentityServer\ClientConsoleApp\obj\Debug\net6.0\ClientConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rahul\Desktop\C#Playground\IdentityServer\ClientConsoleApp\obj\Debug\net6.0\ClientConsoleApp.AssemblyInfoInputs.cache
+C:\Users\rahul\Desktop\C#Playground\IdentityServer\ClientConsoleApp\obj\Debug\net6.0\ClientConsoleApp.AssemblyInfo.cs
+C:\Users\rahul\Desktop\C#Playground\IdentityServer\ClientConsoleApp\obj\Debug\net6.0\ClientConsoleApp.csproj.CoreCompileInputs.cache
+C:\Users\rahul\Desktop\C#Playground\IdentityServer\ClientConsoleApp\obj\Debug\net6.0\ClientConsoleApp.csproj.CopyComplete
+C:\Users\rahul\Desktop\C#Playground\IdentityServer\ClientConsoleApp\obj\Debug\net6.0\ClientConsoleApp.dll
+C:\Users\rahul\Desktop\C#Playground\IdentityServer\ClientConsoleApp\obj\Debug\net6.0\refint\ClientConsoleApp.dll
+C:\Users\rahul\Desktop\C#Playground\IdentityServer\ClientConsoleApp\obj\Debug\net6.0\ClientConsoleApp.pdb
+C:\Users\rahul\Desktop\C#Playground\IdentityServer\ClientConsoleApp\obj\Debug\net6.0\ClientConsoleApp.genruntimeconfig.cache
+C:\Users\rahul\Desktop\C#Playground\IdentityServer\ClientConsoleApp\obj\Debug\net6.0\ref\ClientConsoleApp.dll

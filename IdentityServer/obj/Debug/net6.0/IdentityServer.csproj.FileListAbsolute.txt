@@ -35,3 +35,4 @@ C:\Users\rahul\Desktop\C#Playground\IdentityServer\IdentityServer\bin\Debug\net6
 C:\Users\rahul\Desktop\C#Playground\IdentityServer\IdentityServer\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
 C:\Users\rahul\Desktop\C#Playground\IdentityServer\IdentityServer\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
 C:\Users\rahul\Desktop\C#Playground\IdentityServer\IdentityServer\obj\Debug\net6.0\IdentityServer.csproj.CopyComplete
+C:\Users\rahul\Desktop\C#Playground\IdentityServer\IdentityServer\bin\Debug\net6.0\keys\is-signing-key-54B99B870407F6918C9C2DD4642DD881.json

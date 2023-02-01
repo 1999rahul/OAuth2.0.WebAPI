@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.IdentityModel.Tokens;
 
 namespace Api
 {
@@ -19,8 +20,19 @@ namespace Api
                 .AddJwtBearer(options =>
                 {
                     options.Authority = "https://localhost:7139";
+                    options.TokenValidationParameters = new TokenValidationParameters
+                    {
+                        ValidateAudience = false,
+                    };
                 });
-
+            services.AddAuthorization(options =>
+            {
+                options.AddPolicy(name: "ApiScope", configurePolicy: builder =>
+                {
+                    builder.RequireAuthenticatedUser();
+                    builder.RequireClaim("scope", allowedValues: "api");
+                });
+            });
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
@@ -31,6 +43,7 @@ namespace Api
             }
 
             app.UseHttpsRedirection();
+            app.UseAuthentication();
 
             app.UseAuthorization();
 

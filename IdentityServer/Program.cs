@@ -11,12 +11,27 @@ namespace IdentityServer
             var services=builder.Services;
 
             services.AddIdentityServer()
-                .AddInMemoryClients(new List<Client>())
-                .AddInMemoryApiScopes(new List<ApiScope>());
+                .AddInMemoryClients(new List<Client>
+                {
+                    new Client
+                    {
+                        ClientId= "test",
+                        ClientSecrets= new List<Secret>
+                        {
+                            new Secret("secret".Sha256())
+                        },
+                        AllowedGrantTypes=GrantTypes.ClientCredentials,
+                        AllowedScopes=new List<string>
+                        {
+                            "api" 
+                        }
+                    }
+                })
+                .AddInMemoryApiScopes(new List<ApiScope> { new ApiScope(name:"api")});
 
             var app = builder.Build();
 
-            app.MapGet("/", () => "Hello World!");
+            app.UseIdentityServer();
 
             app.Run();
         }
